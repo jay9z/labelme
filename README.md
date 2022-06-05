@@ -73,8 +73,10 @@ There are options:
 You need install [Anaconda](https://www.continuum.io/downloads), then run below:
 
 ```bash
-# python3
-conda create --name=labelme python=3
+## python3
+#conda create --name=labelme python=3
+# python3.7
+conda create --name=labelme python=3.7
 source activate labelme
 # conda install -c conda-forge pyside2
 # conda install pyqt
